@@ -23,12 +23,12 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-#hash.each{
+hash.each_value{
 if hash[key]
-   hash[key].update += 1
+   hash[key] += 1
  else
    hash[key] = 1;
   
   
-end#}
+end}
 end 
