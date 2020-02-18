@@ -24,7 +24,7 @@ end
 
 def update_counting_hash(hash, key)
   hash.each_value{value += 1}
-  hash[key].default = 1
+  
 end 
 
 
